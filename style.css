@@ -1,0 +1,128 @@
+body{
+	background-image:url("image/01.png");
+	/*背景を繰り返さない*/
+	background-repeat:no-repeat;
+	/*背景の画像を中央にする*/
+	background-position:50% 50%;
+	/*背景の画像を固定*/
+	background-attachment:fixed;
+	/*画像の表示サイズの固定*/
+	background-size:cover;
+}
+header.box{
+	width: auto;
+	margin:auto;
+	border-bottom:3px solid black;
+	height:253px;
+}	
+h1{
+	height: 120px;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:0px;
+}
+h4{
+	text-align: center;
+	color:#ffffff;
+	font-size:40px;
+	margin:0px;
+	font-style: oblique;
+ 	font-family:"AR BERKLEY";
+}
+.fixed{
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+.margintop-10{
+	margin-top:10px;
+}
+.center{
+	text-align: center;
+}
+.width{
+	width:960px;
+}
+.fixed{
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index: 9999;
+}
+.navitab{
+	padding:10px 15px 10px 15px;
+	font-size:20px;
+	font-weight:700;
+	text-decoration:none;
+	color:#ffffff;
+	text-align: center;
+	list-style:none;
+}
+.navitab:hover{
+	background:#000000;
+	color:#ffffff;
+}
+i{
+	margin-right:10px;
+}
+div.profile{
+	/*半透明にする*/
+	background-color:rgba(0,0,0,0.4);
+	/*角を丸くする*/
+	/*border-radius:20px;*/
+	padding:0px; 
+	margin:80px auto;
+}
+.subtitle{ 
+	background-color:#000000;
+	color:#ffffff;
+	margin:30px 0px;
+	clear:left;
+	padding-left:10px;
+}
+p#b{
+	padding-left:10px;
+	/*400がノーマルと同じ太さ*/
+	font-weight:700;
+	color:#ffffff;
+}
+p#a{
+	padding-left:10px;
+	padding-bottom:20px;
+	font-weight:700;
+	color:#ffffff;
+}
+
+
+.width-150{
+	width:150px;
+	height:50px;
+
+}
+.width-200{
+	width: 200px;
+	height: 50px;
+}
+.margin-20{
+	margin:20px;
+}
+.margin-right20{
+	margin-right:20px; 
+}
+.float{
+	float:left;
+}
+
+.user{
+	display:inline-block;
+	/*半透明にする*/
+	background-color:rgba(0,0,0,0.7);
+	/*角を丸くする*/
+	border-radius:10px;
+	padding:10px;
+	font-weight:700;
+	color:#ffffff;
+}
+.margin-10{
+	margin:10px;
+}
