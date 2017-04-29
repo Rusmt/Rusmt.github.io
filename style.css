@@ -80,6 +80,12 @@ div.profile{
 	clear:left;
 	padding-left:10px;
 }
+.memberheight{
+	height: 800px;
+}
+.movieheight{
+	height: 2300px;
+}
 p#b{
 	padding-left:10px;
 	/*400がノーマルと同じ太さ*/
@@ -105,12 +111,16 @@ p#a{
 }
 .margin-20{
 	margin:20px;
+
 }
 .margin-right20{
 	margin-right:20px; 
 }
 .float{
 	float:left;
+}
+.link_item{
+	display:inline-block;
 }
 
 .user{
